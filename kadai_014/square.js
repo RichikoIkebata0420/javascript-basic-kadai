@@ -1,6 +1,7 @@
+
 const calc = (number) => {
-    console.log(number * number);
+    return number * number;
 }
 
 let number = 10;
-calc(number);
+console.log(calc(number));
